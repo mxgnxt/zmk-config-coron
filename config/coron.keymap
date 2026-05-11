@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&kp TAB         &kp Q    &kp W         &kp E         &kp R                      &kp T               &kp Y             &kp U              &lt 5 I           &kp O         &kp P      &kp BACKSPACE
-&kp CAPSLOCK    &kp A    &kp S         &kp D         &kp F                      &kp G               &kp K_MUTE        &kp TAB            &kp H             &kp J         &kp K      &kp L          &kp MINUS  &kp ENTER
-&kp LEFT_SHIFT  &kp Z    &kp X         &kp C         &kp V                      &kp B               &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N             &kp M         &kp COMMA  &kp DOT        &kp SLASH  &kp RIGHT_SHIFT
-&kp LCTRL       &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 LANG_ZENKAKUHANKAKU  &lt 2 INT_MUHENKAN  &kp SPACE         &kp SPACE          &lt 1 INT_HENKAN  &lt 6 DELETE  &kp RCTRL
+&kp TAB         &kp Q    &kp W         &kp E         &kp R        &kp T               &kp Y              &kp U                 &lt 5 I           &kp O         &kp P      &kp BACKSPACE
+&kp CAPSLOCK    &kp A    &kp S         &kp D         &kp F        &kp G               &kp K_MUTE         &kp K_LOCK            &kp H             &kp J         &kp K      &kp L          &kp MINUS  &kp ENTER
+&kp LEFT_SHIFT  &kp Z    &kp X         &kp C         &kp V        &kp B               &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp N             &kp M         &kp COMMA  &kp DOT        &kp SLASH  &kp RIGHT_SHIFT
+&kp LCTRL       &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 GRAVE  &lt 2 INT_MUHENKAN  &kp SPACE          &kp SPACE             &lt 1 INT_HENKAN  &lt 6 DELETE  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -79,10 +79,10 @@
 
         SYMBOL {
             bindings = <
-&trans  &kp SINGLE_QUOTE  &kp LC(LS(DOUBLE_QUOTES))  &kp EXCLAMATION  &trans  &kp RS(TILDE)  &kp INT_YEN  &kp UNDER  &trans         &trans                &kp PERCENT            &trans
-&trans  &kp AT            &kp SEMICOLON              &kp DOLLAR       &trans  &kp GRAVE      &trans       &trans     &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE  &trans  &trans
-&trans  &trans            &trans                     &kp COLON        &trans  &kp BACKSLASH  &trans       &trans     &kp AMPERSAND  &trans                &trans                 &trans    &trans  &kp CARET
-&trans  &trans            &trans                     &trans           &trans  &trans         &trans       &trans     &trans         &trans                &trans
+&trans  &kp AMPERSAND     &kp AT         &kp EXCLAMATION  &trans  &kp PLUS                 &kp RIGHT_BRACKET  &kp LS(INT_RO)  &trans            &trans        &kp PERCENT           &trans
+&trans  &kp LEFT_BRACKET  &kp SEMICOLON  &kp DOLLAR       &trans  &trans                   &trans             &trans          &kp HASH          &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp LS(RIGHT_BRACKET)  &trans  &trans
+&trans  &trans            &trans         &kp SQT          &trans  &kp LANG_ZENKAKUHANKAKU  &trans             &trans          &kp LS(NUMBER_6)  &trans        &trans                &trans                 &trans  &kp EQUAL
+&trans  &trans            &trans         &trans           &trans  &trans                   &trans             &trans          &trans            &trans        &trans
             >;
         };
 
