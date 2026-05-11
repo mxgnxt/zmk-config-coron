@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&kp TAB         &kp Q             &kp W         &kp E         &kp R                      &kp T               &kp Y               &kp U              &lt 5 I           &kp O         &kp P      &kp BACKSPACE
-&kp CAPSLOCK    &kp A             &kp S         &kp D         &kp F                      &kp G               &kp LS(LG(K_MUTE))  &kp MINUS          &kp H             &kp J         &kp K      &kp L          &kp MINUS  &kp ENTER
-&kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B               &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N             &kp M         &kp COMMA  &kp DOT        &kp SLASH  &kp RIGHT_SHIFT
-&kp LCTRL       &kp ESC           &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 LANG_ZENKAKUHANKAKU  &lt 3 INT_MUHENKAN  &kp SPACE           &kp SPACE          &lt 2 INT_HENKAN  &lt 6 DELETE  &kp RCTRL
+&kp TAB         &kp Q    &kp W         &kp E         &kp R                      &kp T               &kp Y             &kp U              &lt 5 I           &kp O         &kp P      &kp BACKSPACE
+&kp CAPSLOCK    &kp A    &kp S         &kp D         &kp F                      &kp G               &kp K_MUTE        &kp TAB            &kp H             &kp J         &kp K      &kp L          &kp MINUS  &kp ENTER
+&kp LEFT_SHIFT  &kp Z    &kp X         &kp C         &kp V                      &kp B               &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N             &kp M         &kp COMMA  &kp DOT        &kp SLASH  &kp RIGHT_SHIFT
+&kp LCTRL       &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 LANG_ZENKAKUHANKAKU  &lt 2 INT_MUHENKAN  &kp SPACE         &kp SPACE          &lt 1 INT_HENKAN  &lt 6 DELETE  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -70,7 +70,7 @@
 
         NUM {
             bindings = <
-&trans  &kp NUMBER_1   &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N7   &kp N8        &kp N9        &trans        &trans
+&trans  &kp NUMBER_1   &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N7   &kp N8        &kp N9        &kp N0        &trans
 &trans  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS  &kp KP_PLUS   &kp KP_EQUAL  &trans        &trans   &kp TAB       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER  &trans
 &trans  &trans         &trans           &trans        &trans        &trans        &trans        &trans   &kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans
 &trans  &trans         &trans           &trans        &trans        &trans        &trans        &kp DOT  &kp NUMBER_0  &trans        &trans
