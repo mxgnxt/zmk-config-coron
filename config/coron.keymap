@@ -21,11 +21,6 @@
 
         /* Note: Key positions have shifted due to added columns. 
            You will need to recalculate these indices later. */
-
-        Alt+F4 {
-            bindings = <&kp LA(F4)>;
-            key-positions = <4 43>;
-        };
     };
 
     macros {
