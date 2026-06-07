@@ -64,6 +64,8 @@
 &trans  &kp F11  &kp F12  &trans  &trans  &trans   &trans  &trans         &kp ESCAPE    &kp HOME        &kp END          &kp PAGE_UP      &kp PAGE_DOWN  &trans
 &trans  &trans   &trans   &trans  &trans  &trans   &trans  &trans         &trans        &trans          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN>;
         };
 
         NUM {
