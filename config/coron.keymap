@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&kp TAB         &kp Q    &kp W         &kp E         &kp R        &kp T      &kp Y               &kp U            &lt 5 I           &kp O         &kp P      &kp BACKSPACE
-&kp CAPSLOCK    &kp A    &kp S         &kp D         &kp F        &kp G      &kp C_MUTE          &kp LG(LS(F23))  &kp H             &kp J         &kp K      &kp L          &kp MINUS  &kp ENTER
-&kp LEFT_SHIFT  &kp Z    &kp X         &kp C         &kp V        &kp B      &kp RIGHT_BRACKET   &kp NON_US_HASH  &kp N             &kp M         &kp COMMA  &kp DOT        &kp SLASH  &kp RIGHT_SHIFT
-&kp LCTRL       &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 GRAVE  &kp SPACE  &lt 2 INT_MUHENKAN  &kp SPACE        &lt 1 INT_HENKAN  &lt 6 DELETE  &kp RCTRL
+&kp TAB         &kp Q    &kp W         &kp E         &kp R        &kp T                  &kp Y              &kp U            &lt 5 I           &kp O         &kp P      &kp BACKSPACE
+&kp CAPSLOCK    &kp A    &kp S         &kp D         &kp F        &kp G                  &kp C_MUTE         &kp LG(LS(F23))  &kp H             &kp J         &kp K      &kp L          &kp MINUS  &kp ENTER
+&kp LEFT_SHIFT  &kp Z    &kp X         &kp C         &kp V        &kp B                  &kp RIGHT_BRACKET  &kp NON_US_HASH  &kp N             &kp M         &kp COMMA  &kp DOT        &kp SLASH  &kp RIGHT_SHIFT
+&kp LCTRL       &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 GRAVE  &lt 2 INTERNATIONAL_5  &kp SPACE          &kp SPACE        &lt 1 INT_HENKAN  &lt 6 DELETE  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
