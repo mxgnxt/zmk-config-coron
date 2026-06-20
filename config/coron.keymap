@@ -11,8 +11,8 @@
 };
 
 &trackball {
-    automouse-layer = <4>;
-    scroll-layers = <5>;
+    automouse-layer = <1>;
+    scroll-layers = <2>;
 };
 
 / {
@@ -51,10 +51,28 @@
 &kp TAB         &kp Q    &kp W         &kp E         &kp R        &kp T                  &kp Y              &kp U            &lt 5 I           &kp O         &kp P      &kp BACKSPACE
 &kp CAPSLOCK    &kp A    &kp S         &kp D         &kp F        &kp G                  &kp C_MUTE         &kp LG(LS(F23))  &kp H             &kp J         &kp K      &kp L          &kp MINUS  &kp ENTER
 &kp LEFT_SHIFT  &kp Z    &kp X         &kp C         &kp V        &kp B                  &kp RIGHT_BRACKET  &kp NON_US_HASH  &kp N             &kp M         &kp COMMA  &kp DOT        &kp SLASH  &kp RIGHT_SHIFT
-&kp LCTRL       &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 GRAVE  &lt 2 INTERNATIONAL_5  &kp SPACE          &kp SPACE        &lt 1 INT_HENKAN  &lt 6 DELETE  &kp RCTRL
+&kp LCTRL       &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 5 GRAVE  &lt 4 INTERNATIONAL_5  &kp SPACE          &kp SPACE        &lt 3 INT_HENKAN  &lt 6 DELETE  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+        };
+
+        MOUSE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &trans  &mkp MB5  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &mo 3   &trans    &trans
+            >;
+        };
+
+        SCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 3   &trans  &trans
+            >;
         };
 
         ARROW {
@@ -83,24 +101,6 @@
 &trans  &kp LEFT_BRACKET  &kp SEMICOLON  &kp DOLLAR        &trans  &trans          &trans       &trans          &kp HASH   &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp LS(INT_YEN)  &trans  &trans
 &trans  &trans            &trans         &kp SINGLE_QUOTE  &trans  &kp LEFT_BRACE  &trans       &trans          &kp CARET  &kp RIGHT_BRACKET  &kp NUHS              &trans           &trans  &kp EQUAL
 &trans  &trans            &trans         &trans            &trans  &trans          &trans       &trans          &trans     &trans             &trans
-            >;
-        };
-
-        MOUSE {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &trans  &mkp MB5  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &mo 1   &trans    &trans
-            >;
-        };
-
-        SCROLL {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 1   &trans  &trans
             >;
         };
 
