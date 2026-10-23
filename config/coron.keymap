@@ -51,7 +51,7 @@
 &kp TAB         &kp Q    &kp W         &kp E         &kp R        &kp T        &kp Y             &kp U            &lt 2 I  &kp O         &kp P      &kp BACKSPACE
 &kp CAPSLOCK    &kp A    &kp S         &kp D         &kp F        &kp G        &kp C_MUTE        &kp LG(LS(F23))  &kp H    &kp J         &kp K      &kp L          &kp MINUS  &kp ENTER
 &kp LEFT_SHIFT  &kp Z    &kp X         &kp C         &kp V        &kp B        &kp INT_MUHENKAN  &kp INT_HENKAN   &kp N    &kp M         &kp COMMA  &kp DOT        &kp SLASH  &kp RIGHT_SHIFT
-&kp LCTRL       &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 5 GRAVE  &lt 4 SPACE  &to 1             &lt 4 SPACE      &to 3    &lt 6 DELETE  &kp RCTRL
+&kp LCTRL       &kp ESC  &kp LEFT_WIN  &kp LEFT_ALT  &lt 5 GRAVE  &lt 4 SPACE  &mo 1             &lt 4 SPACE      &mo 3    &lt 6 DELETE  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
